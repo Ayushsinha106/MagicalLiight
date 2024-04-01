@@ -1,0 +1,56 @@
+body {
+    background: black;
+    margin: 0;
+    max-width: 600px;
+}
+
+canvas {
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 100%; */
+    max-width: 700px;
+    height: 90%;
+}
+
+.colors {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    background-color: aliceblue;
+    margin: 20px 5px;
+    border-radius: 10px;
+}
+
+.colors span {
+    height: 100%;
+    width: 25%;
+    cursor: pointer;
+}
+
+.colors span:first-child {
+    background: rgb(187, 33, 33);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.colors span:nth-child(2) {
+    background: blue;
+}
+
+.colors span:nth-child(3) {
+    background: rgb(55, 240, 55);
+}
+
+.colors span:nth-child(4) {
+    background: rgb(234, 234, 16);
+}
+
+.colors span:nth-child(5) {
+    background: skyblue;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
